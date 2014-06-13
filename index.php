@@ -16,11 +16,12 @@
 	
 	<? for($i = 0; $i < $count; $i++) :?>
 
+		<? 	$entry = $feed->data[$i];
+			if (!isset($entry->message)) : $count++; continue; endif;
+		?>
+		
 		<div class="entry">
 			
-			<? 	$entry = $feed->data[$i];
-				if (!isset($entry->message)) : $count++; continue; endif;
-			?>
 
 			<? if(isset($entry->picture)) :?>
 				<p>
