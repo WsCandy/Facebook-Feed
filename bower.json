@@ -1,0 +1,40 @@
+{
+
+    "name": "Facebook Feed",
+    "authors": [
+   
+        "Samuel Woodbridge"
+
+    ],
+
+    "description": "PHP Facebook Feed",
+    "main": "fb-feed.php",
+    "repository": {
+
+        "type" : "git",
+        "url" : "https://github.com/WsCandy/Facebook-Feed.git"
+
+    },
+
+    "keywords": [
+
+        "Facebook",
+        "Facebook Feed",
+        "Feed",
+        "Propeller",
+        "propcomm",
+        "propeller",
+        "propcom"
+
+    ],
+
+    "license": "Public",
+    "homepage": "https://github.com/WsCandy/Facebook-Feed.git",
+
+    "install" : {
+
+        "fb-feed.php" : "fuel/app/views/inc"
+
+    }
+
+}
