@@ -1,18 +1,10 @@
-Facebook Feed v.1.1.0
+Facebook Feed v.1.1.1
 ===
 
-1.1.0 Update
+1.1.1 Update
 ---
 
-Bower support! Bower support has now been added, simply run:
-
-	bower install propcom-fbFeed
-
-to install or if you're using ppm
-	
-	ppm install propcom-fbFeed
-
-Enjoy!
+Updated so there is a fallback if the json feed cannot be found.
 
 #####Release History
 
